@@ -49,7 +49,7 @@ This is a Responsive Ecommerce Model made in HTML5, CSS3 and JavaScript. The pro
 
     git clone https://github.com/pedropXL/A-Responsive-Model-Ecommerce
 
-2. 
+2. Or click in the link: https://responsive-ecommerce-model.netlify.app
 
 ---
 
