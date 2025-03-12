@@ -426,6 +426,13 @@ body {
   font-size: 15px;
 }
 
+#banner3 h2,
+#banner3 h3 {
+  word-wrap: break-word; /* Quebra palavras longas */
+  text-align: left; /* Ajusta o alinhamento do texto */
+  max-width: 90%; /* Evita que ultrapasse a borda */
+}
+
 #newsletter {
   display: flex;
   justify-content: space-between;
@@ -627,7 +634,7 @@ footer .copyright {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   #sm-banner {
     padding-top: 20px;
     height: 320vh;
