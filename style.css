@@ -618,9 +618,17 @@ footer .copyright {
   #banner3 {
     padding: 0 40px;
   }
+
+  #banner3 h2 {
+    font-size: 12px;
+  }
+
+  #banner h3 {
+    font-size: 10px;
+  }
+
   #banner3 .banner-box {
-    background-size: 150%;
-    width: 48%;
+    width: 68%;
   }
 
   #newsletter .form {
