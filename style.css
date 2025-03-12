@@ -702,23 +702,24 @@ footer .copyright {
     align-items: flex-start;
     background-image: url("img/banner/b7.jpg");
     width: 60vh;
-    height: 60vh;
+    height: 30vh;
     background-size: cover;
     background-position: center;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   
   #banner3 .banner-box2 {
     background-image: url("img/banner/b4.jpg");
-    height: 60vh;
+    height: 30vh;
   }
   
   #banner3 .banner-box3 {
     background-image: url("img/banner/b18.jpg");
-    height: 60vh;
+    height: 30vh;
   }
-  
+
+
   #newsletter {
     padding: 40px 20px;
   }
