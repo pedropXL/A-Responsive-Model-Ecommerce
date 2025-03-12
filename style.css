@@ -627,7 +627,11 @@ footer .copyright {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
+  #sm-banner {
+    padding-top: 20px;
+    height: 320vh;
+  }
   #banner3 {
     padding: 0 20px;
     height: 100%;
