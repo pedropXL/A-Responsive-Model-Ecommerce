@@ -616,7 +616,6 @@ footer .copyright {
   }
   #banner3 {
     padding: 0 40px;
-    height: 200vh;
   }
   #banner3 .banner-box {
     width: 48%;
@@ -703,24 +702,23 @@ footer .copyright {
     align-items: flex-start;
     background-image: url("img/banner/b7.jpg");
     width: 60vh;
-    height: 30vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   
   #banner3 .banner-box2 {
     background-image: url("img/banner/b4.jpg");
+    height: 60vh;
   }
   
   #banner3 .banner-box3 {
     background-image: url("img/banner/b18.jpg");
+    height: 60vh;
   }
   
-  #banner3 .banner-box{
-    width: 100%;
-  }
   #newsletter {
     padding: 40px 20px;
   }
