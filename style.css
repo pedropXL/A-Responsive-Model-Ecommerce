@@ -141,7 +141,7 @@ body {
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0;
+  background-position: top 25% right 25%;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -342,7 +342,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   background-image: url("img/banner/b17.jpg");
-  min-width: 580px;
+  min-width: 680px;
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -618,7 +618,7 @@ footer .copyright {
     padding: 0 40px;
   }
   #banner3 .banner-box {
-    width: 28%;
+    width: 48%;
   }
   #newsletter .form {
     width: 70%;
@@ -626,11 +626,25 @@ footer .copyright {
 }
 
 @media (max-width: 477px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   .section-p1 {
-    padding: 20px;
+    padding: 30px;
   }
   #header {
-    padding: 10px 30px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
   }
   h1 {
     font-size: 38px;
@@ -638,10 +652,19 @@ footer .copyright {
   h2 {
     font-size: 32px;
   }
+  #logo_image {
+    display: flex;
+    justify-content: right; 
+    width: 100%;
+  }
   #hero {
     padding: 0 20px;
-    background-position: 55%;
+    background-image: url("img/hero4.png");
+    background-size: cover;
+    background-position: top 25% right 40%;
+    padding: 0 80px;
   }
+  
   #feature {
     justify-content: space-between;
   }
@@ -656,14 +679,44 @@ footer .copyright {
     height: 40vh;
   }
   #sm-banner .banner-box{
+    min-width: 100%;
     height: 40vh;
   }
   #sm-banner .banner-box2 {
+    min-width: 100%;
     margin-top: 20px;
   }
   #banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Corrigido */
+    min-width: 100%;
+    margin-top: 550px;
     padding: 0 20px;
   }
+
+  #banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    width: 60vh;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  
+  #banner3 .banner-box2 {
+    background-image: url("img/banner/b4.jpg");
+  }
+  
+  #banner3 .banner-box3 {
+    background-image: url("img/banner/b18.jpg");
+  }
+  
   #banner3 .banner-box{
     width: 100%;
   }
