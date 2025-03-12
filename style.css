@@ -426,13 +426,6 @@ body {
   font-size: 15px;
 }
 
-#banner3 h2,
-#banner3 h3 {
-  word-wrap: break-word; /* Quebra palavras longas */
-  text-align: left; /* Ajusta o alinhamento do texto */
-  max-width: 90%; /* Evita que ultrapasse a borda */
-}
-
 #newsletter {
   display: flex;
   justify-content: space-between;
@@ -626,22 +619,12 @@ footer .copyright {
     padding: 0 40px;
   }
   #banner3 .banner-box {
+    background-size: cover;
     width: 48%;
   }
 
   #newsletter .form {
     width: 70%;
-  }
-}
-
-@media (max-width: 640px) {
-  #sm-banner {
-    padding-top: 20px;
-    height: 320vh;
-  }
-  #banner3 {
-    padding: 0 20px;
-    height: 100%;
   }
 }
 
