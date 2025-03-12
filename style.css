@@ -377,6 +377,34 @@ body {
   border: 1px solid rgb(6, 139, 111);
 }
 
+#banner3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os banners */
+  gap: 10px; /* Espaço entre os banners */
+  padding: 0 20px;
+}
+
+#banner3 .banner-box {
+  flex: 1; /* Faz com que os elementos se ajustem ao tamanho disponível */
+  max-width: 100%; /* Define um limite máximo para cada banner */
+  min-width: 280px; /* Impede que fiquem muito pequenos */
+  height: auto; /* Altura ajustável */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner3 h2,
+#banner3 h3 {
+  word-wrap: break-word; /* Quebra palavras longas */
+  text-align: left; /* Ajusta o alinhamento do texto */
+  max-width: 90%; /* Evita que ultrapasse a borda */
+}
 
 #banner3 {
   display: flex;
@@ -698,36 +726,7 @@ footer .copyright {
     min-width: 100%;
     margin-top: 20px;
   }
-
-  #banner3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centraliza os banners */
-    gap: 10px; /* Espaço entre os banners */
-    padding: 0 20px;
-  }
   
-  #banner3 .banner-box {
-    flex: 1; /* Faz com que os elementos se ajustem ao tamanho disponível */
-    max-width: 100%; /* Define um limite máximo para cada banner */
-    min-width: 280px; /* Impede que fiquem muito pequenos */
-    height: auto; /* Altura ajustável */
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  #banner3 h2,
-  #banner3 h3 {
-    word-wrap: break-word; /* Quebra palavras longas */
-    text-align: left; /* Ajusta o alinhamento do texto */
-    max-width: 90%; /* Evita que ultrapasse a borda */
-  }
-
   #banner3 {
     display: flex;
     justify-content: space-between;
