@@ -616,10 +616,12 @@ footer .copyright {
   }
   #banner3 {
     padding: 0 40px;
+    height: 100%;
   }
   #banner3 .banner-box {
     width: 48%;
   }
+
   #newsletter .form {
     width: 70%;
   }
@@ -718,7 +720,6 @@ footer .copyright {
     background-image: url("img/banner/b18.jpg");
     height: 30vh;
   }
-
 
   #newsletter {
     padding: 40px 20px;
